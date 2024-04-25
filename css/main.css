@@ -80,8 +80,16 @@ a {
     padding-top: 5px;
 }
 
+.cart {
+    background: rgb(254, 4, 4);
+    padding: 5px;
+    border-radius: 50%;
+}
+
 .cart ion-icon {
     vertical-align: bottom;
+    font-size: 35px;
+    ;
 }
 
 .cart a {
