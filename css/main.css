@@ -8,6 +8,8 @@
     text-decoration: none;
 }
 
+
+/* -------------------------- CSS du body -------------------------  */
 body {
     margin: 0;
     padding: 0;
@@ -15,6 +17,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+/* -------------------------- fin CSS du body -------------------------  */
 
 
 #hero {
@@ -75,6 +78,19 @@ a {
 
 .navbar .menu {
     padding-top: 5px;
+}
+
+.cart ion-icon {
+    vertical-align: bottom;
+}
+
+.cart a {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.cart a:hover {
+    color: rgb(172, 231, 251);
 }
 
 .navbar .menu a:not(:last-child) {
