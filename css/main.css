@@ -247,6 +247,7 @@ a {
     font-weight: bold;
 }
 
+/* Ancien code css pour les bouttons */
 .produits .carte .achat {
     font-size: 13px;
     font-weight: 900;
@@ -259,6 +260,12 @@ a {
     cursor: pointer;
     background: black;
     color: white;
+}
+
+/* Nouveau code css pour les bouttons */
+.carte a {
+    border: 2px solid black;
+    /* background: blue; */
 }
 
 footer {
