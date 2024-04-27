@@ -319,4 +319,33 @@ footer p a {
         padding: 0 1px;
         align-items: start;
     }
+
+
+    .cart {
+        /* position: relative; */
+        background: rgb(254, 4, 4);
+        /* padding: px; */
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+
+        /* margin-bottom: ; */
+    }
+
+    .cart ion-icon {
+        vertical-align: bottom;
+        font-size: 25px;
+        margin: 0 -1px 0px 2px;
+        ;
+    }
+
+    .cart a {
+        cursor: pointer;
+        font-size: 21px;
+
+    }
+
+    .cart a:hover {
+        color: rgb(172, 231, 251);
+    }
 }
